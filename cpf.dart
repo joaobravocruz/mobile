@@ -25,7 +25,6 @@ main() {
     cpfCalculado2.add(calculoCpf2);
     controle2--;
   }
-
   int soma2 = cpfCalculado2.reduce((value, element) => value + element);
   int modulo2 = soma2 % 11;
   int resto2 = 11 - modulo2;
